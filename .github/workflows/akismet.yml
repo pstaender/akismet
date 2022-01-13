@@ -10,15 +10,12 @@ jobs:
   build:
     strategy:
       matrix:
-        php: [7.4, 8.0]
+        php: [7.3, 7.4, 8.0, 8.1]
 
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
-
-    # - name: Validate composer.json and composer.lock
-    #   run: composer validate --strict
 
     - name: Cache Composer packages
       id: composer-cache
