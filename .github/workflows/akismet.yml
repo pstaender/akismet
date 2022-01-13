@@ -12,9 +12,6 @@ jobs:
       matrix:
         php: [7.4, 8.0]
 
-jobs:
-  build:
-
     runs-on: ubuntu-latest
 
     steps:
