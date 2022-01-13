@@ -36,4 +36,7 @@ jobs:
       run: vendor/bin/phpcs -s
       
     - name: Run tests
+      env:
+        TEST_APIKEY: ${{ secrets.TEST_APIKEY }}
+        TEST_WEBSITE: ${{ secrets.TEST_WEBSITE }}
       run: vendor/bin/phpunit --colors --coverage-text --coverage-clover build/logs/clover.xml
