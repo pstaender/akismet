@@ -1,16 +1,16 @@
-# Akismet PHP 7 class
+# Akismet PHP class
 
-[![Build Status](https://travis-ci.org/Romano83/akismet.svg?branch=master)](https://travis-ci.org/Romano83/akismet)
+![Build Status](https://github.com/pstaender/akismet/actions/workflows/akismet/badge.svg)
 [![Latest Stable Version](https://poser.pugx.org/romano83/akismet/v/stable)](https://packagist.org/packages/romano83/akismet)
 [![License](https://poser.pugx.org/romano83/akismet/license)](https://packagist.org/packages/romano83/akismet)
 
-A PHP-7 class to communicate with [Akismet](kttps://akismet.com) service to determine if a submitted comment to your website should be considered spam or not.
+A PHP class to communicate with [Akismet](kttps://akismet.com) service to determine if a submitted comment to your website should be considered spam or not.
 
 ## Installation
 
 
 ### Requirements
-* PHP 7.1
+* PHP 7.4, 8.0 or 8.1
 
 ### Steps to install
 
